@@ -1,0 +1,39 @@
+.img1 {
+  scale: 300%;
+  margin-left: 28px;
+}
+#backgroundCarousel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 60%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.navbar {
+  opacity: 70%;
+}
+.navbar:hover {
+  opacity: 100%;
+  font-size: larger;
+  transition: 1s;
+}
+.para {
+  color: auto;
+  font-style: italic;
+  margin-left: 50px;
+  margin-top: 250px;
+}
+
+.para:hover {
+  font-weight: bolder;
+  font-size: larger;
+  transition: 600ms;
+}

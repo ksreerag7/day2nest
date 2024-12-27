@@ -1,0 +1,169 @@
+.img1 {
+  scale: 500%;
+  margin-left: 28px;
+}
+
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('maharashtra.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.navbar {
+  opacity: 80%;
+  transition: 0.6s;
+}
+
+.navbar:hover {
+  opacity: 100%;
+  font-size: larger;
+}
+
+.nav-link {
+  color: white !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1, h4 {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+  color: white;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+.GA {
+  color: white;
+}
+
+.GA:hover {
+  color: gold;
+  font-size: larger;
+  transition: 600ms;
+}
+
+.AJ{
+  color: white;
+}
+
+.AJ:hover {
+  color: gold;
+  font-size: larger;
+  transition: 600ms;
+}
+
+.PU {
+  color: white;
+}
+
+.PU:hover {
+  color: gold;
+  font-size: larger;
+  transition: 600ms;
+}
+
+.MU {
+  color: white;
+}
+
+.MU:hover {
+  color: gold;
+  font-size: larger;
+  transition: 600ms;
+}
+
+.MA {
+  color: white;
+}
+
+.MA:hover {
+  color: gold;
+  font-size: larger;
+  transition: 600ms;
+}
+
+.LO {
+  color: white;
+}
+
+.LO:hover {
+  color: gold;
+  font-size: larger;
+  transition: 600ms;
+}
+
+.SH {
+  color: white;
+}
+
+.SH:hover {
+  color: gold;
+  font-size: larger;
+  transition: 600ms;
+}
